@@ -1,0 +1,55 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+	margin: 0;
+	background-color: rgb(190, 189, 189);
+}
+
+ul {
+	list-style: none;
+}
+
+.tasks {
+	height: 30vh;
+	width: 40vw;
+	
+}
+
+.quiz{
+	background-color: white;
+	height: 40vh;
+	width: 50vw;
+	border-radius: 10px;
+}
+
+.submit {
+	width: 97vh;
+	height: 5vh;
+	border-radius: 10px;
+	background-color: rgb(235, 71, 235);
+}
+
+.question {
+	text-align: center;
+	margin: 0;
+	position: relative;
+	left: 4vw;
+}
+
+.reload{
+	width: 97vh;
+	height: 5vh;
+	border-radius: 10px;
+	background-color: rgb(235, 71, 235);
+	position: relative;
+	bottom: 70px;
+}
+
+.score {
+	text-align: center;
+	height: 15vh;
+	background-color: white;
+	border-radius: 10px;
+}
